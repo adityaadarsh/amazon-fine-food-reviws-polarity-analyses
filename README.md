@@ -4,7 +4,7 @@
 ---
 
 <p><img src="https://kaggle2.blob.core.windows.net/datasets-images/18/18/default-backgrounds/dataset-cover.jpg" alt="enter image description here"></p>
-<h1 id="k-nn-on-amazon-fine-food-reviews">Naive Bayes on Amazon Fine Food Reviews</h1>
+<h1 id="naive-bayes-on-amazon-fine-food-reviews">Naive Bayes on Amazon Fine Food Reviews</h1>
 <p>Analyze ~500,000 food reviews from Amazon</p>
 <blockquote>
 <p><strong>About this Dataset</strong></p>
@@ -45,10 +45,14 @@
 <blockquote>
 <h3 id="output-sample">Output Sample</h3>
 </blockquote>
-<p>*********k-fold knn (n_neighbors=k , weights=‘uniform’) ***********<br>
-************* using k-fold to find best K-value *******************<br>
-best accuracy is 88.97500048734379 on cv datatset using 10 fold at k-value 7<br>
-genearalisation accuracy on best k-value at k = 7 is accuacy = 0.8746</p>
+<pre><code> Generalization accuracy = 0.8648484848484849
+             precision    recall  f1-score   support
+
+   negative       0.42      0.48      0.45       376
+   positive       0.93      0.91      0.92      2924
+
+avg / total       0.87      0.86      0.87      3300
+</code></pre>
 <hr>
 <blockquote>
 <p><strong>Naive Bayes Intuition</strong></p>
