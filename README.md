@@ -4,7 +4,7 @@
 ---
 
 <p><img src="https://kaggle2.blob.core.windows.net/datasets-images/18/18/default-backgrounds/dataset-cover.jpg" alt="enter image description here"></p>
-<h1 id="k-nn-on-amazon-fine-food-reviews">K-NN on Amazon Fine Food Reviews</h1>
+<h1 id="k-nn-on-amazon-fine-food-reviews">Naive Bayes on Amazon Fine Food Reviews</h1>
 <p>Analyze ~500,000 food reviews from Amazon</p>
 <blockquote>
 <p><strong>About this Dataset</strong></p>
