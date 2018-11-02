@@ -32,15 +32,14 @@ Data includes:
     * KNN
     * Naive Bayes
     * Logistic Regression
- 5. Accuracy
- 6. conclusion
+ 5. conclusion
 >### Output Sample
 
-*********k-fold knn (n_neighbors=k , weights='uniform') ***********
-  ************* using k-fold to find best K-value ******************* 
-    best accuracy is 88.97500048734379 on cv datatset using 10 fold at k-value 7
-    genearalisation accuracy on best k-value at k = 7 is accuacy = 0.8746
-			 
+`*********k-fold knn (n_neighbors=k , weights='uniform') ***********`
+`************* using k-fold to find best K-value *******************` 
+`best accuracy is 88.97500048734379 on cv datatset using 10 fold at k-value 7`
+`genearalisation accuracy using optimum k-value at k = 7 is 0.8746`
+	 
 
 ----
 ----
@@ -70,18 +69,105 @@ Using text Featurization techniques to convert text into vector to make it ready
 ### 4. Applying classification model
 
 ##### 1. KNN
+* applying KNN on differnent Text Featurization(bow,tf-idf,avg w2v,avf tf-idf w2v) with optimum hyperparmeter
+* changing diifernt parameter of KNN to improve accuracy(Brute force , Kd-tree )
+* evaluate the performance matrics
+
+>* Accuracy Table
+
+| Text Featurisation | Algo    | Accuracy |
+|--------------------|---------|----------|
+| BOW                | Brute   |          |
+|                    | Kd-tree |          |
+| Tf-Idf             | Brute   |          |
+|                    | Kd-tree |          |
+| avg W2V            | Brute   |          |
+|                    | Kd-tree |          |
+| avg Tf-Idf W2v     | Brute   |          |
+|                    | Kd-tree |          |
+
+>* Confusion Metric with best algo and optimum hyperparameter
+
+##### conclusion
 
 ##### 2. Naive Bayes
+* Applied Naive Bayes using Bernoulli NB and Multinomial NB on Different Text Featurization of Data (bow,tf-idf,avg w2v,avf tf-idf w2v) with optimum hyperparmeter
+* evaluate performance metrics
+
+>* Accuracy Table
+
+| Text Featurisation | Algo    | Accuracy |
+|--------------------|---------|----------|
+| BOW                | Brute   |          |
+|                    | Kd-tree |          |
+| Tf-Idf             | Brute   |          |
+|                    | Kd-tree |          |
+| avg W2V            | Brute   |          |
+|                    | Kd-tree |          |
+| avg Tf-Idf W2v     | Brute   |          |
+|                    | Kd-tree |          |
+
+>* Confusion Metric with best algo and optimum hyperparameter
+
+##### conclusion
 
 ##### 3. Logistic Regression
 
+>* Accuracy Table
+
+| Text Featurisation | Algo    | Accuracy |
+|--------------------|---------|----------|
+| BOW                | Brute   |          |
+|                    | Kd-tree |          |
+| Tf-Idf             | Brute   |          |
+|                    | Kd-tree |          |
+| avg W2V            | Brute   |          |
+|                    | Kd-tree |          |
+| avg Tf-Idf W2v     | Brute   |          |
+|                    | Kd-tree |          |
+
+>* Confusion Metric with best algo and optimum hyperparameter
+
+##### conclusion
+
+
 ##### 4. Support Vector Machine
+
+>* Accuracy Table
+
+| Text Featurisation | Algo    | Accuracy |
+|--------------------|---------|----------|
+| BOW                | Brute   |          |
+|                    | Kd-tree |          |
+| Tf-Idf             | Brute   |          |
+|                    | Kd-tree |          |
+| avg W2V            | Brute   |          |
+|                    | Kd-tree |          |
+| avg Tf-Idf W2v     | Brute   |          |
+|                    | Kd-tree |          |
+
+>* Confusion Metric with best algo and optimum hyperparameter
+
+##### conclusion
 
 ##### 5. Random Forest
 
+>* Accuracy Table
 
-### 5. Accuracy
+| Text Featurisation | Algo    | Accuracy |
+|--------------------|---------|----------|
+| BOW                | Brute   |          |
+|                    | Kd-tree |          |
+| Tf-Idf             | Brute   |          |
+|                    | Kd-tree |          |
+| avg W2V            | Brute   |          |
+|                    | Kd-tree |          |
+| avg Tf-Idf W2v     | Brute   |          |
+|                    | Kd-tree |          |
+
+>* Confusion Metric with best algo and optimum hyperparameter
 
 
+##### conclusion
 
-### 6. conclusion
+### 5. conclusion
