@@ -1,7 +1,7 @@
 
 
 ![enter image description here](https://kaggle2.blob.core.windows.net/datasets-images/18/18/default-backgrounds/dataset-cover.jpg)
-#  K-NN on Amazon Fine Food Reviews
+#  Polarity analysesAmazon Fine Food Reviews
 ## Objective 
  ###  Analyze ~500,000 food reviews from Amazon and determine the polarity on reviews
 
@@ -94,18 +94,23 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 >* Accuracy Table
 
-| Text Featurisation | Accuracy |
-|--------------------|----------|
-| BOW                |          |
-| Tf-Idf             |          |
-| avg W2V            |          |
-| avg Tf-Idf W2v     |          |
+
+| Text Featurisation | Accuracy (%) |
+|--------------------|--------------|
+| BOW                | 87.72        |
+| Tf-Idf             | 85.58        |
+| avg W2V            | 86.82        |
+| avg Tf-Idf W2v     | 87.1         |
 
 
 >* Confusion Metric with best algo and optimum hyperparameter
+![](confusion%20matric%20naive%20bayes%20bow.png)
 
 ##### conclusion
-
+    * Naive bayes is faster than KNN but giving less accuracy compared to KNN
+    * best generaliztion accuracy of KNN on Amazon fine food reviews is 87.72% using avg BOW vectoriser
+    * Now, we will try logistic regression classification technique on our dataset and 
+      check if it is better or not.
 ##### 3. Logistic Regression
 
 >* Accuracy Table
