@@ -1,7 +1,7 @@
 
 
 ![enter image description here](https://kaggle2.blob.core.windows.net/datasets-images/18/18/default-backgrounds/dataset-cover.jpg)
-#  Polarity analysesAmazon Fine Food Reviews
+#  Polarity analyses on Amazon Fine Food Reviews
 ## Objective 
  ###  Analyze ~500,000 food reviews from Amazon and determine the polarity on reviews
 
