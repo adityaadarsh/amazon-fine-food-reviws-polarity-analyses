@@ -75,37 +75,32 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 >* Accuracy Table
 
-| Text Featurisation | Algo    | Accuracy |
-|--------------------|---------|----------|
-| BOW                | Brute   |          |
-|                    | Kd-tree |          |
-| Tf-Idf             | Brute   |          |
-|                    | Kd-tree |          |
-| avg W2V            | Brute   |          |
-|                    | Kd-tree |          |
-| avg Tf-Idf W2v     | Brute   |          |
-|                    | Kd-tree |          |
+| Text Featurisation | Accuracy( % ) |
+|--------------------|---------------|
+| BOW                | 88.48         |
+| Tf-Idf             | 89            |
+| avg W2V            | 89.96         |
+| avg Tf-Idf W2v     | 89.55         |
 
->* Confusion Metric with best algo and optimum hyperparameter
 
+    
 ##### conclusion
-
+    * KNN is a lazy learning algorithm and takes quite a much time
+    * best generaliztion accuracy of KNN on Amazon fine food reviews is 89.96% using avg w2v vectoriser
+    * Apply other algorithms which has less latency time and more accuracy
 ##### 2. Naive Bayes
 * Applied Naive Bayes using Bernoulli NB and Multinomial NB on Different Text Featurization of Data (bow,tf-idf,avg w2v,avf tf-idf w2v) with optimum hyperparmeter
 * evaluate performance metrics
 
 >* Accuracy Table
 
-| Text Featurisation | Algo    | Accuracy |
-|--------------------|---------|----------|
-| BOW                | Brute   |          |
-|                    | Kd-tree |          |
-| Tf-Idf             | Brute   |          |
-|                    | Kd-tree |          |
-| avg W2V            | Brute   |          |
-|                    | Kd-tree |          |
-| avg Tf-Idf W2v     | Brute   |          |
-|                    | Kd-tree |          |
+| Text Featurisation | Accuracy |
+|--------------------|----------|
+| BOW                |          |
+| Tf-Idf             |          |
+| avg W2V            |          |
+| avg Tf-Idf W2v     |          |
+
 
 >* Confusion Metric with best algo and optimum hyperparameter
 
@@ -115,16 +110,12 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 >* Accuracy Table
 
-| Text Featurisation | Algo    | Accuracy |
-|--------------------|---------|----------|
-| BOW                | Brute   |          |
-|                    | Kd-tree |          |
-| Tf-Idf             | Brute   |          |
-|                    | Kd-tree |          |
-| avg W2V            | Brute   |          |
-|                    | Kd-tree |          |
-| avg Tf-Idf W2v     | Brute   |          |
-|                    | Kd-tree |          |
+| Text Featurisation | Accuracy |
+|--------------------|----------|
+| BOW                |          |
+| Tf-Idf             |          |
+| avg W2V            |          |
+| avg Tf-Idf W2v     |          |
 
 >* Confusion Metric with best algo and optimum hyperparameter
 
@@ -135,16 +126,12 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 >* Accuracy Table
 
-| Text Featurisation | Algo    | Accuracy |
-|--------------------|---------|----------|
-| BOW                | Brute   |          |
-|                    | Kd-tree |          |
-| Tf-Idf             | Brute   |          |
-|                    | Kd-tree |          |
-| avg W2V            | Brute   |          |
-|                    | Kd-tree |          |
-| avg Tf-Idf W2v     | Brute   |          |
-|                    | Kd-tree |          |
+| Text Featurisation | Accuracy |
+|--------------------|----------|
+| BOW                |          |
+| Tf-Idf             |          |
+| avg W2V            |          |
+| avg Tf-Idf W2v     |          |
 
 >* Confusion Metric with best algo and optimum hyperparameter
 
@@ -154,16 +141,13 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 >* Accuracy Table
 
-| Text Featurisation | Algo    | Accuracy |
-|--------------------|---------|----------|
-| BOW                | Brute   |          |
-|                    | Kd-tree |          |
-| Tf-Idf             | Brute   |          |
-|                    | Kd-tree |          |
-| avg W2V            | Brute   |          |
-|                    | Kd-tree |          |
-| avg Tf-Idf W2v     | Brute   |          |
-|                    | Kd-tree |          |
+| Text Featurisation | Accuracy |
+|--------------------|----------|
+| BOW                |          |
+| Tf-Idf             |          |
+| avg W2V            |          |
+| avg Tf-Idf W2v     |          |
+
 
 >* Confusion Metric with best algo and optimum hyperparameter
 
