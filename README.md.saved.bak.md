@@ -129,21 +129,19 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 #### Conclusion of Logistic Regresion
 
-```python
-1. It is seen that logistic regression works better and faster than above model(Knn and Naive Bayes).
-2. Best generalization accuracy on amazon fine food reviews using logistic regression
-    gridsearchCV is 92.93 % on BOW bigram 
-3. Logistic regression works faster than Knn and naive bayes as its running time complexity 
-    is only O(d)
-4. We can also reduce its time complexity further by increasing sparsity
-    (increase lambda=1/c in L1 regulizer)by trading with errors.
-5. Logistic regression is also very useful in feature interpretable as it uses weights to
-    interprate featues.
 
-*NOTE I have trained logistic regression on only 10000 data-points in avg w2v and avg tf-idf
-w2f becouse of time constrain.
-```
+    * It is seen that logistic regression works better and faster than above model(Knn and Naive Bayes).
+    * Best generalization accuracy on amazon fine food reviews using logistic regression
+        gridsearchCV is 92.93 % on BOW bigram 
+    * Logistic regression works faster than Knn and naive bayes as its running time complexity 
+        is only O(d)
+    * We can also reduce its time complexity further by increasing sparsity
+        (increase lambda=1/c in L1 regulizer)by trading with errors.
+    * Logistic regression is also very useful in feature interpretable as it uses weights to
+        interprate featues.
 
+    * *NOTE I have trained logistic regression on only 10000 data-points in avg w2v and avg tf-idf
+        w2f becouse of time constrain.
 
 
 ##### 4. Support Vector Machine
