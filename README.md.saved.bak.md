@@ -84,7 +84,7 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 
     
-##### conclusion
+##### Conclusion of KNN
     * KNN is a lazy learning algorithm and takes quite a much time
     * best generaliztion accuracy of KNN on Amazon fine food reviews is 89.96% using avg w2v vectoriser
     * Apply other algorithms which has less latency time and more accuracy
@@ -106,7 +106,7 @@ Using text Featurization techniques to convert text into vector to make it ready
 >* Confusion Metric with best algo and optimum hyperparameter
 ![](confusion%20matric%20naive%20bayes%20bow.png)
 
-##### conclusion
+##### Conclusion of Naive Bayes
     * Naive bayes is faster than KNN but giving less accuracy compared to KNN
     * best generaliztion accuracy of KNN on Amazon fine food reviews is 87.72% using avg BOW vectoriser
     * Now, we will try logistic regression classification technique on our dataset and 
@@ -115,21 +115,41 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 >* Accuracy Table
 
+
+
 | Text Featurisation | Accuracy |
 |--------------------|----------|
-| BOW                |          |
-| Tf-Idf             |          |
-| avg W2V            |          |
-| avg Tf-Idf W2v     |          |
+| BOW                | 92.93    |
+| Tf-Idf             | 92.48    |
+| avg W2V            | 92.30    |
+| avg Tf-Idf W2v     | 91.83    |
 
 >* Confusion Metric with best algo and optimum hyperparameter
+![](confusion%20matrix%20logistic%20regression.png)
 
-##### conclusion
+#### Conclusion of Logistic Regresion
+
+```python
+1. It is seen that logistic regression works better and faster than above model(Knn and Naive Bayes).
+2. Best generalization accuracy on amazon fine food reviews using logistic regression
+    gridsearchCV is 92.93 % on BOW bigram 
+3. Logistic regression works faster than Knn and naive bayes as its running time complexity 
+    is only O(d)
+4. We can also reduce its time complexity further by increasing sparsity
+    (increase lambda=1/c in L1 regulizer)by trading with errors.
+5. Logistic regression is also very useful in feature interpretable as it uses weights to
+    interprate featues.
+
+*NOTE I have trained logistic regression on only 10000 data-points in avg w2v and avg tf-idf
+w2f becouse of time constrain.
+```
+
 
 
 ##### 4. Support Vector Machine
 
 >* Accuracy Table
+
 
 | Text Featurisation | Accuracy |
 |--------------------|----------|
@@ -145,6 +165,7 @@ Using text Featurization techniques to convert text into vector to make it ready
 ##### 5. Random Forest
 
 >* Accuracy Table
+
 
 | Text Featurisation | Accuracy |
 |--------------------|----------|
