@@ -1,6 +1,6 @@
 
 
-![enter image description here](https://kaggle2.blob.core.windows.net/datasets-images/18/18/default-backgrounds/dataset-cover.jpg)
+![](images/dataset-cover.jpg)
 #  Polarity analyses on Amazon Fine Food Reviews
 ## Objective 
  ###  Analyze ~500,000 food reviews from Amazon and determine the polarity on reviews
@@ -104,7 +104,7 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 
 >* Confusion Metric with best algo and optimum hyperparameter
-![](confusion%20matric%20naive%20bayes%20bow.png)
+![](images/confusion%20matric%20naive%20bayes%20bow.png)
 
 ##### Conclusion of Naive Bayes
     * Naive bayes is faster than KNN but giving less accuracy compared to KNN
@@ -125,7 +125,7 @@ Using text Featurization techniques to convert text into vector to make it ready
 | avg Tf-Idf W2v     | 91.83    |
 
 >* Confusion Metric with best algo and optimum hyperparameter
-![](confusion%20matrix%20logistic%20regression.png)
+![](images/confusion%20matrix%20logistic%20regression.png)
 
 #### Conclusion of Logistic Regresion
 
