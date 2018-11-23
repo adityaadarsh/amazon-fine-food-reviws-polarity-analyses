@@ -140,7 +140,7 @@ Using text Featurization techniques to convert text into vector to make it ready
     * Logistic regression is also very useful in feature interpretable as it uses weights to
         interprate featues.
 
-    * *NOTE I have trained logistic regression on only 10000 data-points in avg w2v and avg tf-idf
+    **NOTE I have trained logistic regression on only 10000 data-points in avg w2v and avg tf-idf
         w2f becouse of time constrain.
 
 
