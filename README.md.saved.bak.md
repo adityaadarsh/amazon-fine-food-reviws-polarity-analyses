@@ -108,7 +108,7 @@ Using text Featurization techniques to convert text into vector to make it ready
 
 ##### Conclusion of Naive Bayes
     * Naive bayes is faster than KNN but giving less accuracy compared to KNN
-    * best generaliztion accuracy of KNN on Amazon fine food reviews is 87.72% using avg BOW vectoriser
+    * best generaliztion accuracy of Naive bayes on Amazon fine food reviews is 87.72% using avg BOW vectoriser
     * Now, we will try logistic regression classification technique on our dataset and 
       check if it is better or not.
 ##### 3. Logistic Regression
