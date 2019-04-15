@@ -144,38 +144,6 @@ Using text Featurization techniques to convert text into vector to make it ready
         w2f becouse of time constrain.
 
 
-##### 4. Support Vector Machine
 
->* Accuracy Table
-
-
-| Text Featurisation | Accuracy |
-|--------------------|----------|
-| BOW                |          |
-| Tf-Idf             |          |
-| avg W2V            |          |
-| avg Tf-Idf W2v     |          |
-
->* Confusion Metric with best algo and optimum hyperparameter
-
-##### conclusion
-
-##### 5. Random Forest
-
->* Accuracy Table
-
-
-| Text Featurisation | Accuracy |
-|--------------------|----------|
-| BOW                |          |
-| Tf-Idf             |          |
-| avg W2V            |          |
-| avg Tf-Idf W2v     |          |
-
-
->* Confusion Metric with best algo and optimum hyperparameter
-
-
-##### conclusion
 
 ### 5. conclusion
